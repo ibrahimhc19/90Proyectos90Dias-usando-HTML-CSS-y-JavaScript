@@ -5,4 +5,42 @@
   text-decoration: none;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
+  color: #F9F5F6;
+}
+
+:root{
+  --bg-color: linear-gradient(217deg, #F1B6E0, rgba(255, 0, 0, 0) 70.71%), 
+							linear-gradient(127deg, #B3B0F8, rgba(0, 255, 0, 0) 70.71%), 
+							linear-gradient(336deg, #8ADDF8, rgba(0, 0, 255, 0) 70.71%);
+}
+
+html{
+  background-color: #F9F5F6;
+}
+
+/* Nav bar */
+
+.nav-bar{
+  height: 6rem;
+  line-height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--bg-color);
+  text-transform: uppercase;
+}
+
+.left h1{
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.list{
+  display: flex;
+}
+.list li a{
+  /* padding: 1rem; */
+  margin: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
