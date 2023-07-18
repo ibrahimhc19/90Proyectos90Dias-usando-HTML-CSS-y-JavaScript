@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #f9f5f6;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --bg-color: linear-gradient(217deg, #ee6fca, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #67bad4, rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, #24b6e7, rgba(0, 0, 255, 0) 70.71%);
+  --altura: 5rem;
+}
+
+html {
+  background-color: #dbcce9;
+}
+
+/* Nav bar */
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  height: var(--altura);
+  text-transform: uppercase;
+  line-height: var(--altura);
+  background: var(--bg-color);
+  justify-content: space-around;
+  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.left h1 {
+  font-size: 1.5rem;
+  user-select: none;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.list {
+  display: flex;
+  user-select: none;
+}
+.list-oculto {
+  left: 100%;
+}
+.list-visible {
+  left: 5%;
+}
+.list li a {
+  margin: 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 1s;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+}
+
+.list li a:hover {
+  background: #ffc3fc48;
+}
+
+#btn {
+  display: none;
+  font-size: 1.8rem;
+}
+
+label {
+  font-size: 1.8rem;
+}
+@media only screen and (max-width: 768px) {
+  .list {
+    top: 5rem;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    transition: all 1s;
+    align-items: center;
+    flex-direction: column;
+    background: var(--bg-color);
+  }
+
+  .list li a {
+    font-size: 1.2rem;
+  }
+  #btn {
+    display: block;
+  }
+}
