@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #1c2ed496;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --bg-color: linear-gradient(217deg, #ee6fca, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #67bad4, rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, #24b6e7, rgba(0, 0, 255, 0) 70.71%);
+  --altura: 5rem;
+}
+
+html {
+  background-color: #dbcce9;
+}
+
+#titulo {
+  text-align: center;
+  margin: 5rem;
+  text-transform: uppercase;
+}
+
+#container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--bg-color);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ol h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+ol {
+  font-size: 1.2rem;
+}
+
+ol li {
+  margin: .3rem;
+}
+
+ol li a{
+  padding: .2rem;
+}
+
+ol li a:hover{
+  border-radius: 2px;
+  background: #dbcce9;
+  transition: all 1s;
+
+}
