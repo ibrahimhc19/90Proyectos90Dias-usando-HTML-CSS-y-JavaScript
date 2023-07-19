@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+:root{
+  --bg-color: linear-gradient(217deg, #ee6fca, rgba(255, 0, 0, 0) 70.71%), 
+							linear-gradient(127deg, #67bad4, rgba(0, 255, 0, 0) 70.71%), 
+							linear-gradient(336deg, #24b6e7, rgba(0, 0, 255, 0) 70.71%);
+  --altura: 5rem;
+}
+body{
+  background-color: #dbcce9;
+}
+.navbar{
+  background: var(--bg-color);
+  height: var(--altura);
+  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  font-size: 1.5rem;
+  user-select: none;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #f9f5f6;
+}
+
+.list li a {
+  margin: 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 1s;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  color: #f9f5f6;
+}
+
+.list li a:hover{
+  background: #ffc3fc48;
+  color: #f9f5f6;
+}
