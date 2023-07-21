@@ -20,7 +20,6 @@ body{
 .left {
   font-size: 1.5rem;
   user-select: none;
-  font-weight: normal;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #f9f5f6;
