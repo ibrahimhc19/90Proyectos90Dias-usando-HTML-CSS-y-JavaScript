@@ -30,7 +30,7 @@ body {
 }
 
 
-ol li {
+.list-group-item {
   margin: .3rem;
 }
 
