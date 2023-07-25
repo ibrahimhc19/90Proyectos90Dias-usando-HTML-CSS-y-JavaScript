@@ -21,28 +21,32 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md text-uppercase">
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <button class="navbar-toggler ms-auto btn" type="button" data-bs-toggle="collapse" data-bs-target="#togglerNav"
-          aria-controls="togglerNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand ms-md-5 text-uppercase" href="#">The Nav Bar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="togglerNav">
-          <a class="navbar-brand fs-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block">The Nav Bar</a>
-          <ul class="navbar-nav me-md-5">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/ibrahimhc19">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mailto:ibrahimhc19@gmail.com">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CV</a>
-            </li>
-          </ul>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav me-md-5 justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CV</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
