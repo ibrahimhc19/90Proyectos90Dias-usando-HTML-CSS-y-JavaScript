@@ -14,11 +14,9 @@
   --bg-color: linear-gradient(217deg, #F1B6E0, rgba(255, 0, 0, 0) 70.71%), 
 							linear-gradient(127deg, #B3B0F8, rgba(0, 255, 0, 0) 70.71%), 
 							linear-gradient(336deg, #8ADDF8, rgba(0, 0, 255, 0) 70.71%);
-  --altura: 5rem;
 }
 
 body{
-  /* background-color: #dbcce9; */
   background: var(--bg-color);
   display: flex;
   justify-content: center;
@@ -31,7 +29,6 @@ body{
 .form-container{
   width: 350px;
   height: 450px;
-  /* background: var(--bg-color); */
   background: var(--bg-color);
   border-radius: 1rem;
   display: flex;
@@ -42,23 +39,23 @@ body{
 
 .userName, .password{
   padding: .7rem 2rem .7rem 0;
-  /* border-radius: 2rem; */
   margin: 1rem;
   outline: none;
   border: none;
-  /* text-align: center; */
-  /* width: 15rem; */
   background: transparent;
   border-bottom: solid 1px white;
+  font-size: 1rem;
+  width: 14rem;
+  transition: all .3s;
 }
 
 .titulo{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  user-select: none;
 }
 
 .loginBtn{
-  padding: 1rem 3rem;
-  /* border-radius: 6rem; */
+  padding: .5rem 2rem;
   border: none;
   outline: none;
   background: transparent;
@@ -66,9 +63,17 @@ body{
   cursor: pointer;
   border: solid 1px white;
   margin-top: 1rem;
-  transition: all .5s;
+  transition: all .3s;
 }
 
 .loginBtn:hover{
   transform: scale(1.1);
+}
+
+.userName::placeholder, .password::placeholder{
+  color: white;
+}
+
+.userName:focus, .password:focus{
+  width: 15rem;
 }

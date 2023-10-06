@@ -3,26 +3,30 @@
   padding: 0;
   color: #1c2ed496;
   list-style: none;
-  text-decoration: none!important;
+  text-decoration: none !important;
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
-
+:root {
+  --bg-color: linear-gradient(217deg, #f1b6e0, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #b3b0f8, rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, #8addf8, rgba(0, 0, 255, 0) 70.71%);
+}
 
 body {
   background-color: #dbcce9;
 }
 
 .list-group-item {
-  margin: .3rem;
+  margin: 0.3rem;
 }
 
-.list-group-item a{
-  padding: .2rem;
+.list-group-item a {
+  padding: 0.2rem;
 }
 
-.list-group-item{
+.list-group-item {
   background-color: #f0dfff;
 }
