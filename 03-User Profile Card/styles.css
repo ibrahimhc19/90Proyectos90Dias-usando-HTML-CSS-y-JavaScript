@@ -28,14 +28,15 @@ body {
 
 .cardContainer {
   background-color: black;
-  width: 425px;
-  height: 600px;
+  width: 320px;
+  /* height: 600px; */
   border-radius: 8px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   padding: 2rem;
   align-items: center;
+  background-color: rgb(31, 31, 32);
 }
 
 .cardTop {
@@ -44,9 +45,6 @@ body {
   width: 100%;
 }
 
-/* .cardTop li {
-  padding: 0 1rem;
-} */
 .cardTop i {
   font-size: 1.6rem;
 }
@@ -56,7 +54,7 @@ body {
 }
 
 img {
-  width: 150px;
+  width: 120px;
   border-radius: 50%;
 }
 
@@ -68,6 +66,9 @@ button {
   color: black;
   font-size: 20px;
   font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: block;
 }
 
 .icons-right li:first-of-type {
@@ -93,4 +94,13 @@ button {
 
 p, h1{
   text-align: center;
+}
+
+.introduction{
+  font-size: 1rem;
+  /* padding: 0 1rem; */
+}
+
+h1{
+  font-size: 1.8rem;
 }
