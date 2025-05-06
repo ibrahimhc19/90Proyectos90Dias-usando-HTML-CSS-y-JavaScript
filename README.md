@@ -16,3 +16,4 @@ Aquí está el enfoque que seguiré para los desafíos:
 Espero que disfrutes siguiendo mi progreso mientras abordo estos proyectos. No dudes en explorar el repositorio y brindar cualquier comentario o sugerencia. ¡Gracias por tu apoyo!
 
 Nota: Los proyectos se agregarán al repositorio regularmente a medida que los vaya completando.
+[Enlace a los proyectos originales](https://www.geekshelp.org/p/html-css-projects_5.html)
